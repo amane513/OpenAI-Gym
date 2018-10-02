@@ -1,5 +1,5 @@
 git init
-git add file_name
-git commit -m commit_name
-git remote add origin URL
+git add _file_name_
+git commit -m _commit_name_
+git remote add origin _URL_
 git push origin master
