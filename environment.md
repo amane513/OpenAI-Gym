@@ -6,7 +6,7 @@ python version : 3.6.4.final.0
 base environment : /Users/user/.pyenv/versions/anaconda3-5.1.0  (writable)  
 
 ### Change Conda Environment  
-conda create -n RL python jupyter  
+conda create -n RL python anaconda jupyter  
 _conda info -e_  
 base                     /Users/user/.pyenv/versions/anaconda3-5.1.0  
 RL                    *  /Users/user/.pyenv/versions/anaconda3-5.1.0/envs/RL  
