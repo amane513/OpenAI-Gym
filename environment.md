@@ -6,7 +6,6 @@ python version : 3.6.4.final.0
 base environment : /Users/user/.pyenv/versions/anaconda3-5.1.0  (writable)  
 
 ### Change Conda Environment  
-conda create -n RL python=3.6.4 anaconda
 _conda info -e_  
 base                     /Users/user/.pyenv/versions/anaconda3-5.1.0  
 RL                    *  /Users/user/.pyenv/versions/anaconda3-5.1.0/envs/RL  
@@ -25,7 +24,9 @@ git clone https://github.com/openai/gym
 cd gym  
 sudo pip install -e .[all]  
 
-### Keras-rl Environment
+### Keras-rl & OpenAI Gym Environment
+conda create -n RL python=3.7.0 anaconda
+
 conda install tensorflow
 conda install keras
 pip install keras-rl
