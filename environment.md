@@ -26,6 +26,7 @@ cd gym
 sudo pip install -e .[all]  
 
 ### Keras-rl Environment
-pip install tensorflow
-pip install keras
+conda install tensorflow
+conda install keras
 pip install keras-rl
+pip install gym
