@@ -26,8 +26,7 @@ sudo pip install -e .[all]
 
 ### Keras-rl & OpenAI Gym Environment
 conda create -n RL python=3.7.0 anaconda  
-
+conda install gym  
 conda install tensorflow  
 conda install keras  
 pip install keras-rl  
-pip install gym  
