@@ -15,6 +15,9 @@ git commit -m _commit_name_  //コミットメッセージを指定
 #### originという名前のリモートリポジトリを作成
 git remote add origin _URL_  
 
+#### originリモートリポジトリのmasterブランチをプルする(pushする前にやっておくこと）
+git pull origin master  
+
 #### originリモートリポジトリのmasterブランチにプッシュする
 git push origin master  
 
